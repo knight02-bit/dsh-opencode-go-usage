@@ -54,9 +54,18 @@ git clone https://github.com/knight02-bit/dsh-opencode-go-usage.git
 
 装好后刷新一次 GUI 页面，输入框下方就会出现额度条。
 
-### 方式二：手动放置（不装插件，仅调试）
+### 方式二：预构建 tarball
 
-把 `index.js` / `client.js` 当作普通模块引入宿主与客户端的做法不受支持，请走方式一。
+Release 上附带一份按 `files` 字段打完包的 tarball（不含 `node_modules`，无需构建）：
+
+```text
+https://github.com/knight02-bit/dsh-opencode-go-usage/releases/latest/download/dsh-opencode-go-usage.tgz
+```
+
+插件市场（如 [dsh-market](https://github.com/dsh-market/dsh-market)）会优先展示它；源码安装同样可用，两种方式产物一致。
+
+> 图标说明：`icon.svg` 给 DSH 插槽用；市场卡片只接受 GitHub 托管的位图，所以另存了一张
+> `assets/icon-180.png`（由 `scripts/render-icon.py` 按同一套几何重绘，180×180）。
 
 ## 配置密钥
 
