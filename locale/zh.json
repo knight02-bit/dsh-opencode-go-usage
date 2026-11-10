@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "title": "OpenCode Go 额度条",
+    "description": "在对话输入框下方实时显示 OpenCode Go 的滚动 / 本周 / 本月剩余额度百分比。"
+  },
+  "dock": {
+    "label": "OpenCode Go 额度",
+    "rolling": "滚动",
+    "weekly": "本周",
+    "monthly": "本月",
+    "refresh": "点击立即刷新",
+    "loading": "读取额度",
+    "unconfigured": "未配置密钥",
+    "unauthorized": "密钥被拒",
+    "offline": "上游不可达",
+    "limited": "已耗尽",
+    "resetsAt": "重置于"
+  }
+}

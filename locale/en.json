@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "title": "OpenCode Go quota bar",
+    "description": "Live remaining rolling / weekly / monthly OpenCode Go quota below the composer."
+  },
+  "dock": {
+    "label": "OpenCode Go quota",
+    "rolling": "Rolling",
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "refresh": "Click to refresh now",
+    "loading": "reading quota",
+    "unconfigured": "no API key",
+    "unauthorized": "key rejected",
+    "offline": "upstream unreachable",
+    "limited": "exhausted",
+    "resetsAt": "resets"
+  }
+}
